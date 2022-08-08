@@ -1,0 +1,82 @@
+[
+  {
+    "title": "1) HTML stands for ?",
+    "Answer-1": "HighText Machine Language",
+    "Answer-2": "HyperText and links Markup Language",
+    "Answer-3": "HyperText Markup Language",
+    "Answer-4": "None of these",
+    "right-Ans": "HyperText Markup Language"
+  },
+  {
+    "title": "2) The correct sequence of HTML tags for starting a webpage is ?",
+    "Answer-1": "Head, Title, HTML, body",
+    "Answer-2": "HTML, Body, Title, Head",
+    "Answer-3": "HTML, Head, Title, Body",
+    "Answer-4": "None of these",
+    "right-Ans": "HTML, Head, Title, Body"
+  },
+  {
+    "title": "3) Which of the following element is responsible for making the text bold in HTML?",
+    "Answer-1": "<pre>",
+    "Answer-2": "<a>",
+    "Answer-3": "<b>",
+    "Answer-4": "<br>",
+    "right-Ans": "<b>"
+  },
+  {
+    "title": "4) Which of the following tag is used for inserting the largest heading in HTML?",
+    "Answer-1": "<h3>",
+    "Answer-2": "<h1>",
+    "Answer-3": "<h5>",
+    "Answer-4": "<h6>",
+    "right-Ans": "<h1>"
+  },
+  {
+    "title": "5) Which of the following tag is used to insert a line-break in HTML?",
+    "Answer-1": "<br>",
+    "Answer-2": "<a>",
+    "Answer-3": "<pre>",
+    "Answer-4": "<b>",
+    "right-Ans": "<br>"
+  },
+  {
+    "title": "6) How to create an unordered list (a list with the list items in bullets) in HTML?",
+    "Answer-1": "<ul>",
+    "Answer-2": "<ol>",
+    "Answer-3": "<li>",
+    "Answer-4": "<i>",
+    "right-Ans": "<ul>"
+  },
+  {
+    "title": "7) Which character is used to represent the closing of a tag in HTML?",
+    "Answer-1": "//",
+    "Answer-2": "!",
+    "Answer-3": "/",
+    "Answer-4": ".",
+    "right-Ans": "/"
+  },
+  {
+    "title": "8) How to create a hyperlink in HTML?",
+    "Answer-1": "<a href = `www.javatpoint.com`> javaTpoint.com </a>",
+    "Answer-2": "<a url = `www.javatpoint.com` javaTpoint.com /a>",
+    "Answer-3": "<a link = `www.javatpoint.com`> javaTpoint.com </a>",
+    "Answer-4": "<a> www.javatpoint.com <javaTpoint.com /a>",
+    "right-Ans": "<a href = `www.javatpoint.com`> javaTpoint.com </a>"
+  },
+  {
+    "title": "9) How to create an ordered list (a list with the list items in numbers) in HTML?",
+    "Answer-1": "<ul>",
+    "Answer-2": "<ol>",
+    "Answer-3": "<li>",
+    "Answer-4": "<i>",
+    "right-Ans": "<ol>"
+  },
+  {
+    "title": "10) Which of the following element is responsible for making the text italic in HTML?",
+    "Answer-1": "<i>",
+    "Answer-2": "<italic>",
+    "Answer-3": "<it>",
+    "Answer-4": "<pre>",
+    "right-Ans": "<i>"
+  }
+]

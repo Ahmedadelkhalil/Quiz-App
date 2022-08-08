@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-one: #0075ff;
+  --color-two: #777;
+  --color-three: #dc0a0a;
+  --color-four: #009688;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quizz-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d9d8d9;
+  padding: 20px;
+}
+.sec-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.question-area {
+  padding: 20px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  background-color: #fff;
+}
+.answers-area {
+  background-color: #fff;
+  width: 100%;
+  color: var(--color-two);
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ans-1,
+.ans-2,
+.ans-3,
+.ans-4 {
+  padding: 20px;
+  cursor: pointer;
+}
+.ans-1,
+.ans-2,
+.ans-3 {
+  border-bottom: 1px solid var(--color-two);
+}
+label {
+  margin-left: 10px;
+}
+input[type="radio"] {
+  cursor: pointer;
+}
+input[type="radio"]:checked + label {
+  color: var(--color-one);
+}
+.btn {
+  border: none;
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 5px;
+  background-color: var(--color-one);
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.btn:focus {
+  outline: none;
+}
+.spans_timeout {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.spans {
+  display: flex;
+}
+.spans span {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-two);
+  top: -9px;
+  left: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: 5px;
+}
+.on {
+  background-color: var(--color-one) !important;
+}
+.timeout {
+  font-weight: bold;
+  font-size: 20px;
+}
+.evaluation {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: tahoma;
+  margin-top: 15px;
+}
+.evaluation .perfect {
+  color: var(--color-one);
+  font-size: 19px;
+}
+.evaluation .good {
+  color: var(--color-four);
+  font-size: 19px;
+}
+.evaluation .bad {
+  color: var(--color-three);
+  font-size: 19px;
+}
+::selection {
+  color: yellow;
+  background-color: black;
+}
